@@ -1,0 +1,94 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+}
+
+.heading {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.count-span {
+  color: #c20a72;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .count-span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .description {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .button {
+    font-size: 6px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .heading {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .count-span {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .description {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 6px;
+  }
+}
